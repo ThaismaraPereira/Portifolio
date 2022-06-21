@@ -11,7 +11,7 @@ header{
 
 header nav{
     display: flex;
-    width: 50%;
+    width: 45%;
     list-style: none;
     justify-content: space-between;
     font-weight: 500;
@@ -19,10 +19,22 @@ header nav{
 
 header nav li a{
     text-decoration: none;
+    text-decoration-color: rgb(189, 0, 0);
+    color: black;
+}
+
+header nav li:hover{
+    text-decoration: underline;
 }
 
 header h1{
     font-weight: 700;
+}
+
+header h1:hover{
+    letter-spacing: 0.1em;
+    color: rgb(189, 0, 0);
+    transition: 0.8s;
 }
 
 main{
